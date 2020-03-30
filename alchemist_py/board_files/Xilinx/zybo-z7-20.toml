@@ -1,0 +1,32 @@
+part = "digilentinc.com:zybo-z7-20:part0:1.0"
+clock = 125000000
+url = "https://reference.digilentinc.com/reference/programmable-logic/zybo-z7/reference-manual"
+description = "Zynq-7020 FPGA board"
+
+[pins]
+clk = { name = "K17", type = "LVCMOS33" }
+LED = [
+    { name = "M14", type = "LVCMOS33" },
+    { name = "M15", type = "LVCMOS33" },
+    { name = "G14", type = "LVCMOS33" },
+    { name = "D18", type = "LVCMOS33" }
+]
+button = [
+    { name = "K18", type = "LVCMOS33" },
+    { name = "P16", type = "LVCMOS33" },
+    { name = "K19", type = "LVCMOS33" },
+    { name = "Y16", type = "LVCMOS33" }
+]
+
+[[IPs]]
+name = "clk_wiz"
+version = "6.0"
+options = [
+    "[list CONFIG.PRIM_IN_FREQ.VALUE_SRC USER]",
+    "[list CONFIG.PRIM_IN_FREQ {125.000} CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {125.000} CONFIG.USE_LOCKED {false} CONFIG.USE_RESET {false} CONFIG.CLKIN1_JITTER_PS {80.0} CONFIG.MMCM_CLKFBOUT_MULT_F {8.000} CONFIG.MMCM_CLKIN1_PERIOD {8.000} CONFIG.MMCM_CLKOUT0_DIVIDE_F {8.000} CONFIG.CLKOUT1_JITTER {119.348} CONFIG.CLKOUT1_PHASE_ERROR {96.948}]"
+]
+
+[[IPs]]
+name = "axis_data_fifo"
+version = "2.0"
+options = []
