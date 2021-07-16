@@ -14,12 +14,12 @@ import toml
 from logzero import logger
 from pathlib import Path
 
-from alchemist.argument_parser import ArgumentParser
-from alchemist.deviceinfo import listDevices
-from alchemist.plugin_manager import PluginManager
-from alchemist.project_manager import Manager
-from alchemist.tclgen import tclgen
-from alchemist.xdcgen import xdcgen
+from alchemist_py.argument_parser import ArgumentParser
+from alchemist_py.deviceinfo import listDevices
+from alchemist_py.plugin_manager import PluginManager
+from alchemist_py.project_manager import Manager
+from alchemist_py.tclgen import tclgen
+from alchemist_py.xdcgen import xdcgen
 
 def usage():
     operations = [

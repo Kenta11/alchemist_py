@@ -9,9 +9,9 @@ import toml
 
 from pathlib import Path
 
-from alchemist.brokergen import createProject
-from alchemist.deviceinfo import searchDevice
-from alchemist.plugin_manager import PluginManager
+from alchemist_py.brokergen import createProject
+from alchemist_py.deviceinfo import searchDevice
+from alchemist_py.plugin_manager import PluginManager
 
 class Manager(object):
     def __init__(self):
