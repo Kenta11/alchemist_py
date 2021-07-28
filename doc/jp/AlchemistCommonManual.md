@@ -35,13 +35,12 @@ $ sudo apt install build-essential cmake git openjdk-8-jdk gradle checkinstall -
 
 $ git clone https://github.com/eProsima/Fast-RTPS
 $ cd Fast-RTPS
-$ git checkout -b build v1.7.2
+$ git checkout -b v1.7.2 remotes/origin/release/1.7.2
 $ mkdir bulid
 $ cd build
 $ cmake -DTHIRDPARTY=ON -DBUILD_JAVA=ON ..
-$ make -j`grep processor /proc/cpuinfo | wc -l`
-$ sudo checkinstall --maintainer `whoami` --pkgname fast-rtps --default
-$ echo "fast-rtps hold" | sudo dpkg --get-selections
+$ make -j8
+$ sudo make install
 ```
 
 ## Vivado, Vivado HLS
