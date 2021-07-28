@@ -7,7 +7,7 @@ alchemistはコンポーネント指向によるFPGA開発のための支援ツ�
 
 # 開発環境
 
-- OS: Ubuntu 18.04 LTS
+- OS: Ubuntu 20.04 LTS
 - Python 3.7>=
 - FPGA 開発ツール: Vivado, Vivado HLS (2019.1)
 - Fast RTPS (v1.7.2)
