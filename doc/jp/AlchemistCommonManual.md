@@ -51,7 +51,7 @@ Refer to [Vivado Design Suite User Guide UG973(v2019.1)](https://www.xilinx.com/
 ## alchemist
 
 ```
-$ sudo pip install https://github.com/Kenta11/alchemist
+$ sudo pip install https://github.com/ohkawatks/alchemist_py
 ```
 
 # アンインストール
