@@ -27,6 +27,7 @@ alchemistはコンポーネント指向によるFPGA開発のための支援ツ�
 
 ```
 $ sudo apt install build-essential cmake git openjdk-8-jdk gradle checkinstall -y
+$ sudo apt install libncurses5 -y
 ```
 
 ### Fast-RTPSのコンパイルとインストール
