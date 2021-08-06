@@ -11,7 +11,7 @@ import toml
 from logzero import logger
 from pathlib import Path
 
-from alchemist.yacc import parser
+from alchemist_py.yacc import parser
 
 def createProject(broker_name:str):
     logger.info("Generating broker: {}".format(broker_name))

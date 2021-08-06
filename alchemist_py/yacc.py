@@ -1,7 +1,7 @@
 import ply.yacc as yacc
 import sys
 
-from alchemist.lex import tokens
+from alchemist_py.lex import tokens
 
 def p_MESSAGE(p):
     'MESSAGE : PARAMS'
