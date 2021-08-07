@@ -1,9 +1,6 @@
-# alchemist
+# Alchemist
 
 Alchemist is a Component-Oriented and High-Level-Synthesis (HLS) FPGA Development Environment Based-on DDS (Data Distribution Service).
-
-[日本語版](README-jp.md)
-
 
 ## Usage
 
@@ -24,7 +21,7 @@ $ alchemist update
 #### Unit testing
 
 ```
-$ alchemist test --unit
+$ alchemist test --unit <node name>
 ```
 
 #### Integrated testing
@@ -35,6 +32,14 @@ $ alchemist test --integration
 
 ### Bitstream generation
 ```
-$ alchemist compile
+$ alchemist build
 ```
+
+## Translations of this README
+
+[日本語版](doc/jp/README.md)
+
+## For details
+
+Please read [doc/en/Common.md](doc/en/Common.md).
 

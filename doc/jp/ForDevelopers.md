@@ -1,4 +1,4 @@
-# alchemist
+# Alchemist
 
 ## アーキテクチャ
 
