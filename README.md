@@ -7,7 +7,7 @@ Alchemist is a Component-Oriented and High-Level-Synthesis (HLS) FPGA Developmen
 ### Creating a new project
 
 ```
-$ alchemist new
+$ alchemist new <project name>
 ```
 
 ### Update the project
@@ -31,6 +31,7 @@ $ alchemist test --integration
 ```
 
 ### Bitstream generation
+
 ```
 $ alchemist build
 ```
