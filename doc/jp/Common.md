@@ -16,7 +16,7 @@ alchemistはコンポーネント指向によるFPGA開発のための支援ツ�
 
 ## Xilinx Vivado, Vivado HLS
 
-Refer to [Vivado Design Suite User Guide UG973(v2019.2)](https://www.xilinx.com/support/documentation/sw_manuals/xilinx2019_2/ug973-vivado-release-notes-install-license.pdf).
+[Vivado Design Suite User Guide UG973(v2019.2)](https://www.xilinx.com/support/documentation/sw_manuals/xilinx2019_2/ug973-vivado-release-notes-install-license.pdf)をご参照ください．
 
 ## Fast DDS
 
